@@ -16,5 +16,11 @@ set_dimension!(m, :time, yrs)
 run(m)
 
 #Batch updates
+param = Dict{Any, Any}()
+param[:fco22x] = 4
+param[(:sealevelrise, :slrthreshold)] = 7 # Must use tuple for unshared params(component, parameter)
+update_params!(m, param)
+run(m)
+
 
 explore(m)#allows for me to see plots of the results and see the changes
