@@ -19,3 +19,5 @@ run(m)
 
 #check data
 getdataframe(m, :emissions, :E_Global) # m[:emissions, :E_Global] returns just the Array
+
+explore(m) #visual on the results
