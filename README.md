@@ -3,4 +3,4 @@ Will house all of my Mimi tutorials
 *
 *
 *
-currently complted 3/6 tutorials
+currently complted 4/6 tutorials
