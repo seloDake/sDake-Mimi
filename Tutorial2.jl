@@ -11,7 +11,7 @@ run(m)
 m[:socioeconomic, :income] # complete array
 m[:socioeconomic, :income][100] # individual index
 getdataframe(m, :socioeconomic=>:income) # dataframe requesting one variable from one component
-getdataframe(m, :socioeconomic=>:income)[1:16,:]# results for regions in 950
+getdataframe(m, :socioeconomic=>:income)[1:16,:]# results for regions in 1950
 
 
 # Explore Plots and Graphs
