@@ -11,3 +11,6 @@ This folder contains most of the research.
 
 ## figs
 Contains important figures for the research. Main reason being that one can find them without needing to run their respective notebooks or use them to crosscheck their results.
+
+## data analysis
+This contains my notebooks for analyzing, selecting, and manipulating data for future ciam runs using raw data that has not being normalized.
