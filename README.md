@@ -6,8 +6,8 @@ Here are my instructions for running the [tutorials](instructions.ipynb)
 The respective julia files for each mimi tutorial are titled after themselves.
 They do not have test cases though I may add what their results should be to the instructions file.
 
-##LearnCiam
+## LearnCiam
 This folder contains most of the research.
 
-##figs
+## figs
 Contains important figures for the research. Main reason being that one can find them without needing to run their respective notebooks or use them to crosscheck their results.
