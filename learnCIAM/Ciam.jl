@@ -8,5 +8,6 @@ m = MimiCIAM.get_model()
 run(m)
 
 #check results
-getdataframe(m, :slrcost=>:vsl)
-explore(m)
+getdataframe(m, :slrcost=>:NPVNoAdapt)
+plott = Mimi.plot( m, :slrcost, :NoAdapt)
+#explore(m)
